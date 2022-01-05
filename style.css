@@ -1,0 +1,35 @@
+body{
+    margin: 0px;
+}
+.span-color{
+    color: rgb(139, 31, 143);
+}
+.section-flex{
+    display: flex;
+    background-image: url(image/exp-bg.png);
+    background-repeat: no-repeat;
+}
+
+.half-width{
+    width: 62%;
+}
+
+.img-1{
+    display: inline-block;
+    width: 462px;
+    height: 436px;}
+.h1-1{
+    font-size: 50px;
+}
+.h2-1{
+    font-size: 40px;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(tomato, orange);
+    color: white;
+    border-radius: 2px;
+    margin: 7px;
+    padding: 7px;
+    font-weight: bold;
+}
