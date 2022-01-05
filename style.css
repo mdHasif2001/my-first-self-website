@@ -1,5 +1,6 @@
 body{
     margin: 0px;
+    font-family: 'Montserrat', sans-serif;font-family: 'Poppins', sans-serif;
 }
 .span-color{
     color: rgb(139, 31, 143);
@@ -39,4 +40,31 @@ body{
     margin: 7px;
     padding: 7px;
     font-weight: bold;
+}
+.full-stack{
+    margin-left: 120px;
+}
+.digital{
+    margin-right: 120px;
+    margin-left: 120px;
+}
+.experience-area{
+    background-image: url(image/exp-bg.png);
+    background-repeat: no-repeat;
+}
+.experience-area div{
+    box-shadow: 12px 12px 12px gray;
+}
+#id-stack{
+    border-image: linear-gradient(tomato, rgb(0, 102, 255));
+    border-image-slice: 1;
+    border-left: 5px solid;
+}
+#id-digital{
+    border-image: linear-gradient(rgb(151, 71, 255), rgb(238, 255, 0));
+    border-image-slice: 1;
+    border-left: 5px solid;
+}
+footer{
+    text-align: center;
 }
